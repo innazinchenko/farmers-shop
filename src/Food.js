@@ -2,7 +2,7 @@ function Food({itemsForSale}) {
     return (
         <div className="product-cards">
          {itemsForSale.map((element => {
-            const {id, name, searchTerm, price, image} = element;
+            const {id, name, price, image} = element;
             return(
                 <div className="card" key={id}>
 
